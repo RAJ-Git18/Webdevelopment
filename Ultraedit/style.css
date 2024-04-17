@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 190px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+}
+
+ul li {
+    color: black;
+    font-size: large;
+}
+
+ul li:nth-child(6) {
+    position: relative;
+    right: 40px;
+}
+
+ul li:hover {
+    color: #8e8a8a;
+}
+
+
+h1 {
+    font-weight: 200;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 190px;
+    gap: 20px;
+
+
+}
+
+section span {
+    font-size: 50px;
+}
+
+section div {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 14px 180px;
+    text-align: center;
+}
+
+.btn1 button {
+    text-align: center;
+    color: white;
+    background-color: rgb(84, 154, 234);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    margin: 15px 380px;
+    gap: 20px;
+}
+
+.head {
+    font-size: 30px;
+}
+
+.head span {
+    font-size: 17px;
+}
+
+.grid {
+    margin: 15px 370px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.box {
+    border: none;
+    height: 140px;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #f8f6f6;
+    text-align: center;
+
+
+}
+
+.downbtn {
+    display: flex;
+    gap: 10px;
+}
+
+.btn2 button {
+    background-color: rgb(84, 154, 234);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.btn3 button {
+    background-color: rgb(114, 174, 86);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.typo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .grid {
+        /* margin: 15px 310px; */
+        grid-template-columns: 1fr;
+
+    }
+}
