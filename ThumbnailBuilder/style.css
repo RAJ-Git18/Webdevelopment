@@ -1,0 +1,39 @@
+.container {
+    max-height: 100vh;
+    /* border: 1px solid red; */
+    overflow: auto;
+}
+
+.box {
+    /* border: 5px solid green; */
+    display: flex;
+    height: 15vh;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+
+    background-color: rgb(35, 33, 33);
+}
+
+.duration {
+    position: absolute;
+    left: 9rem;
+    bottom: 0.5rem;
+    background-color: rgb(40, 39, 39);
+    border-radius: 5px;
+    color: white;
+}
+
+img {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.text {
+    /* border: 1px solid blue; */
+    line-height: 4px;
+    color: white;
+}
