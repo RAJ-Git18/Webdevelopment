@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F7DCB9;
+}
+
+
+.maincontainer {
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 70vh;
+    width: 30vw;
+    position: relative;
+    margin: auto;
+    border: none;
+    top: 5rem;
+    padding-top: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    color: #2C7865;
+}
+
+form {
+    box-sizing: border-box;
+
+    height: 45vh;
+    margin: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+input {
+    text-align: center;
+    font-weight: bolder;
+
+    padding: 0.8rem;
+    border-radius: 8px;
+
+}
+
+select {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+
+option {
+    border: none;
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+    align-items: center;
+
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.countrybox {
+    display: flex;
+    width: 7rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 2rem;
+    border: 1px solid black;
+    position: relative;
+}
+
+#flag {
+    height: 2rem;
+    border-radius: 20rem;
+    position: absolute;
+    right: 4rem;
+
+}
+
+#exchange-icon {
+    height: 1.5rem;
+}
+
+.btn-exchange {
+    background-color: #874CCC;
+    color: white;
+    height: 3rem;
+    width: 15rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.border {
+    height: 2rem;
+    width: 7rem;
+    border-radius: 8px;
+
+}
+
+.border:hover {
+    color: #874CCC;
+    padding: 0.01rem;
+}
+
+
+
+@media screen and (max-width:1025px) {
+    .maincontainer {
+        background-color: #F7DCB9;
+        top:1rem
+    }
+}
