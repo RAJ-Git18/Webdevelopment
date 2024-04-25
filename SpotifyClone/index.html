@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify Clone</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utility.css">
+    </head>
+    <body>
+        <div class="maincontainer flex p-1">
+            <div class="leftcontainer">
+                <!-- upper left content -->
+                <div class="home border-radius bg-grey p-1">
+                    <div class="crosscontainer">
+                        <img class="invert" height="30rem" id="spotifylogo`" src="svgfiles/spotifylogo.svg">
+                        <img class="crossButton" src="svgfiles/crossicon.svg">
+                    </div>
+                    
+                    <div class="logo">
+                        <img height="25px" class="invert" src="svgfiles/homelogo.svg">
+                        <div class="text">Home</div>
+                    </div>
+                    <div class="logo ">
+                        <img height="25px" class="invert" src="svgfiles/searchlogo.svg">
+                        <div class="text bg-whitegrey">Search</div>
+                    </div>
+                </div>
+                <!-- Library -->
+                <div class="library border-radius bg-grey p-1">
+                    <div class="logo">
+                        <img height="25px" class="invert" src="svgfiles/librarylogo.svg">
+                        <div class="text bg-whitegrey">Your Library</div>
+                    </div>
+                    <div class="scroller mt-1 mb-2">
+                        <div class="playlist1 bg-whitegrey ">
+                            <h3>PlayList 1</h3>
+                        </div>
+                    </div>
+                    <!-- Footer -->
+                    <div class="footer">
+                        <div class="links flex">
+                            <a href="">Legal</a>
+                            <a href="">Safety and Privacy Center</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Cookies</a>
+                            <a href="">About Ads</a>
+                            <a href="">Accessiblity</a>
+                        </div>
+                        <div class="select"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcontainer">
+                <!-- Navbar at the top hehe!! -->
+                <div class="navbar flex align-items bg-black">
+                    <div class="arrowicons">
+                        <img class="hamburger" height="40rem" src="svgfiles/hamburgericon.svg">
+                        <img src="svgfiles/lessthanicon.svg">
+                        <img src="svgfiles/greaterthanicon.svg">
+                    </div>
+                    <div class="buttons">
+                        <button id="btn-1" class="bg-black">Sign Up</button>
+                        <button id="btn-2" class="bg-white">Log in</button>
+                    </div>
+                </div>
+                <!-- Spotify playlist -->
+                <div class="midsection bg-grey">
+                    <h1>Spotify Playlists</h1>
+                    <div class="allcards flex">
+                        <div class="cards border-radius">
+                            <img class="img-ht-w border-radius" src="images/img1.jpeg">
+                            <h4 class="songName bg-white pt-1"></h4>
+        
+                            <img class="playbutton" src="svgfiles/playbutton.svg">
+                        </div>
+                        <div class="cards border-radius">
+                            <img class="img-ht-w border-radius" src="images/img2.jpeg">
+                            <h4 class="songName bg-white pt-1"></h4>
+        
+                            <img class="playbutton" src="svgfiles/playbutton.svg">
+                        </div>
+                        <div class="cards border-radius">
+                            <img class="img-ht-w border-radius" src="images/img3.jpeg">
+                            <h4 class="songName bg-white pt-1"></h4>
+        
+                            <img class="playbutton" src="svgfiles/playbutton.svg">
+                        </div>
+                        <div class="cards border-radius">
+                            <img class="img-ht-w border-radius" src="images/img4.jpeg">
+                            <h4 class="songName bg-white pt-1"></h4>
+        
+                            <img class="playbutton" src="svgfiles/playbutton.svg">
+                        </div>
+                        <div class="cards border-radius">
+                            <img class="img-ht-w border-radius" src="images/img5.jpeg">
+                            <h4 class="songName bg-white pt-1"></h4>
+        
+                            <img class="playbutton" src="svgfiles/playbutton.svg">
+                        </div>
+                        <div class="cards border-radius">
+                            <img class="img-ht-w border-radius" src="images/img6.jpeg">
+                            <h4 class="songName bg-white pt-1"></h4>
+        
+                            <img class="playbutton" src="svgfiles/playbutton.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="audioPlayer border-radius bg-grey">
+                    <input type="range" class="audioscroll">
+                    <div class="playbar border-radius">
+                        <audio class="audio" src="" controls autoplay="false"></audio>
+                        <img class="previous" src="svgfiles/previousicon.svg">
+                        <img class="play" src="svgfiles/playicon.svg">
+                        <img class="pause" src="svgfiles/pauseicon.svg">
+                        <img class="next" src="svgfiles/nexticon.svg">
+                    </div>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </body>
+    </html>
